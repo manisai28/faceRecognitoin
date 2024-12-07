@@ -7,8 +7,10 @@ const App = () => {
   return (
     <Container>
       <Box sx={{ my: 4 }}>
-        <CapturePhoto />
-        <FaceRecognition />
+        <>
+          <CapturePhoto />
+          <FaceRecognition />
+        </>
       </Box>
     </Container>
   );
